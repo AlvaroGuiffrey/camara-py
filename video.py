@@ -20,9 +20,9 @@ import cv2
 # Captura imagen desde la cámara de la pc
 #captura = cv2.VideoCapture(0)
 # Captura video cámara del sansumg
-#captura = cv2.VideoCapture('http://admin:admin@192.168.0.73:8081/video')
+captura = cv2.VideoCapture('http://admin:admin@192.168.0.73:8081/video')
 # Captura video cámara tablet gadnic
-captura = cv2.VideoCapture('http://alvaritz:monoloco@192.168.0.106:8081/video')
+#captura = cv2.VideoCapture('http://alvaritz:monoloco@192.168.0.106:8081/video')
 # Toma el video guardado
 #captura = cv2.VideoCapture('videoPrueba.avi')
 # Salida de la imagen capturada para guardar
